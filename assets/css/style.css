@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(240, 229, 215);
+}
+
+.card {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+
+}
+
+.main {
+
+    background-color: white;
+    position: relative;
+    width: 1000px;
+    border: solid 2px black;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px gray;
+
+
+
+}
+
+.header-card {
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 10px;
+}
+
+hr {
+    width: 980px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#botonAgregar {
+    height: 36px;
+    width: auto;
+    background-color: rgb(24, 112, 29);
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.input p {
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    margin-left: 10px;
+
+
+}
+
+#input {
+    width: 900px;
+    margin-left: 10px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.total p {
+    margin-top: 10px;
+    margin-right: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.realizado {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.realizado p {
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.tableBox{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    
+}
+
+.table{
+    display: flex;
+    margin-top: 10px;
+}
+
+.table th{
+   width: 20px;
+   font-size: 30px;
+   font-weight: bold;
+}
+.table td{ 
+    width: 20px;
+    font-weight: bold;
+    text-align:center;
+}
+
+.table a{
+    text-decoration: none;
+    color: rgb(185, 0, 0);
+}
+    
+
+table{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif ;
+}
+
+
+
+
