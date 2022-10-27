@@ -67,5 +67,5 @@ function tareasEliminadas(id){
     })
     arregloTareas.splice(indexCheckbox,1)
     actualizarTareas(arregloTareas)
+    total.innerHTML = arregloTareas.length;
 }
-
